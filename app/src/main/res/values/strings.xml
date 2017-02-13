@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Fragment</string>
+    <string-array name="coursename">
+        <item></item>
+        <item>初级入门</item>
+        <item>初级提高</item>
+        <item>中级标准</item>
+        <item>中级提高</item>
+        <item>高级基础</item>
+        <item>高级提高</item>
+    </string-array>
+    <string-array name="coursetname">
+        <item></item>
+    </string-array>
+    <string-array name="courseplace">
+        <item>上清寺教学点</item>
+    </string-array>
+    <string-array name="coursetime">
+        <item></item>
+        <item>周1/3/5晚</item>
+        <item>周2/4晚</item>
+        <item>周末班</item>
+    </string-array>
+</resources>

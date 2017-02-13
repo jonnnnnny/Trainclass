@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="报名成功！您的报名信息："
+        android:textSize="20dp"/>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/preference_first_item" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="手机号："
+            android:textSize="17sp"
+            android:textColor="#333" />
+        <TextView
+            android:id="@+id/tv_saphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/preference_item" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="姓名："
+            android:textSize="17sp"
+            android:textColor="#333" />
+        <TextView
+            android:id="@+id/tv_saname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/preference_item" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="身份证号："
+            android:textSize="17sp"
+            android:textColor="#333" />
+        <TextView
+            android:id="@+id/tv_saidcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/preference_item" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="报名班级："
+            android:textSize="17sp"
+            android:textColor="#333" />
+        <TextView
+            android:id="@+id/tv_sacourseid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:background="@drawable/preference_last_item" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:text="学号："
+            android:textSize="17sp"
+            android:textColor="#333" />
+        <TextView
+            android:id="@+id/tv_sastuid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:padding="8dp"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btn_saback"
+        android:background="@drawable/button01"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="返回主界面"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

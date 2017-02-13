@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/list_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:text="course name"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/list_tname"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/list_name"
+        android:text="jonny"
+
+        />
+    <TextView
+        android:id="@+id/list_locaname"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="place"
+        android:layout_toRightOf="@+id/list_tname"
+        android:layout_below="@+id/list_name"/>
+    <TextView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/list_tname"
+        android:text="2010/4/27-2010/6/22"/>
+    <TextView
+        android:id="@+id/list_time"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/list_data"
+        android:text="周2/4晚 18:50-21:00"
+        />
+
+
+</RelativeLayout>
